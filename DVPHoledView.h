@@ -10,4 +10,9 @@
 
 @interface DVPHoledView : UIView
 
+
+@property (nonatomic, strong) UIColor *fillColor;
+
+
+- (void)createHoleInRect:(CGRect )rect;
 @end

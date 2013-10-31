@@ -18,6 +18,8 @@
 		EE403CD81823016400711D33 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE403CD71823016400711D33 /* Default-568h@2x.png */; };
 		EE403CDB1823016400711D33 /* DVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE403CDA1823016400711D33 /* DVPViewController.m */; };
 		EE403CDE1823016400711D33 /* DVPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE403CDC1823016400711D33 /* DVPViewController.xib */; };
+		EE403CE71823037200711D33 /* 1096.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE403CE61823037200711D33 /* 1096.jpg */; };
+		EE403CEA182303C500711D33 /* DVPHoledView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE403CE9182303C500711D33 /* DVPHoledView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		EE403CD91823016400711D33 /* DVPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVPViewController.h; sourceTree = "<group>"; };
 		EE403CDA1823016400711D33 /* DVPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVPViewController.m; sourceTree = "<group>"; };
 		EE403CDD1823016400711D33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DVPViewController.xib; sourceTree = "<group>"; };
+		EE403CE61823037200711D33 /* 1096.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1096.jpg; sourceTree = "<group>"; };
+		EE403CE8182303C500711D33 /* DVPHoledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVPHoledView.h; path = ../DVPHoledView.h; sourceTree = "<group>"; };
+		EE403CE9182303C500711D33 /* DVPHoledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DVPHoledView.m; path = ../DVPHoledView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,9 @@
 				EE403CD91823016400711D33 /* DVPViewController.h */,
 				EE403CDA1823016400711D33 /* DVPViewController.m */,
 				EE403CDC1823016400711D33 /* DVPViewController.xib */,
+				EE403CE8182303C500711D33 /* DVPHoledView.h */,
+				EE403CE9182303C500711D33 /* DVPHoledView.m */,
+				EE403CE61823037200711D33 /* 1096.jpg */,
 				EE403CC81823016400711D33 /* Supporting Files */,
 			);
 			path = HoledView;
@@ -164,6 +172,7 @@
 				EE403CD61823016400711D33 /* Default@2x.png in Resources */,
 				EE403CD81823016400711D33 /* Default-568h@2x.png in Resources */,
 				EE403CDE1823016400711D33 /* DVPViewController.xib in Resources */,
+				EE403CE71823037200711D33 /* 1096.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +186,7 @@
 				EE403CCE1823016400711D33 /* main.m in Sources */,
 				EE403CD21823016400711D33 /* DVPAppDelegate.m in Sources */,
 				EE403CDB1823016400711D33 /* DVPViewController.m in Sources */,
+				EE403CEA182303C500711D33 /* DVPHoledView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +309,7 @@
 				EE403CE31823016400711D33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
