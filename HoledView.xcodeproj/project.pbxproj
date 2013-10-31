@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE403CC21823016400711D33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE403CC11823016400711D33 /* UIKit.framework */; };
+		EE403CC41823016400711D33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE403CC31823016400711D33 /* Foundation.framework */; };
+		EE403CC61823016400711D33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE403CC51823016400711D33 /* CoreGraphics.framework */; };
+		EE403CCC1823016400711D33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE403CCA1823016400711D33 /* InfoPlist.strings */; };
+		EE403CCE1823016400711D33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE403CCD1823016400711D33 /* main.m */; };
+		EE403CD21823016400711D33 /* DVPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE403CD11823016400711D33 /* DVPAppDelegate.m */; };
+		EE403CD41823016400711D33 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EE403CD31823016400711D33 /* Default.png */; };
+		EE403CD61823016400711D33 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE403CD51823016400711D33 /* Default@2x.png */; };
+		EE403CD81823016400711D33 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE403CD71823016400711D33 /* Default-568h@2x.png */; };
+		EE403CDB1823016400711D33 /* DVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE403CDA1823016400711D33 /* DVPViewController.m */; };
+		EE403CDE1823016400711D33 /* DVPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE403CDC1823016400711D33 /* DVPViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE403CBE1823016400711D33 /* HoledView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoledView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE403CC11823016400711D33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE403CC31823016400711D33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE403CC51823016400711D33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE403CC91823016400711D33 /* HoledView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoledView-Info.plist"; sourceTree = "<group>"; };
+		EE403CCB1823016400711D33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE403CCD1823016400711D33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE403CCF1823016400711D33 /* HoledView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoledView-Prefix.pch"; sourceTree = "<group>"; };
+		EE403CD01823016400711D33 /* DVPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVPAppDelegate.h; sourceTree = "<group>"; };
+		EE403CD11823016400711D33 /* DVPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVPAppDelegate.m; sourceTree = "<group>"; };
+		EE403CD31823016400711D33 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EE403CD51823016400711D33 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EE403CD71823016400711D33 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EE403CD91823016400711D33 /* DVPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVPViewController.h; sourceTree = "<group>"; };
+		EE403CDA1823016400711D33 /* DVPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVPViewController.m; sourceTree = "<group>"; };
+		EE403CDD1823016400711D33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DVPViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE403CBB1823016400711D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE403CC21823016400711D33 /* UIKit.framework in Frameworks */,
+				EE403CC41823016400711D33 /* Foundation.framework in Frameworks */,
+				EE403CC61823016400711D33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE403CB51823016400711D33 = {
+			isa = PBXGroup;
+			children = (
+				EE403CC71823016400711D33 /* HoledView */,
+				EE403CC01823016400711D33 /* Frameworks */,
+				EE403CBF1823016400711D33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE403CBF1823016400711D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE403CBE1823016400711D33 /* HoledView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE403CC01823016400711D33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE403CC11823016400711D33 /* UIKit.framework */,
+				EE403CC31823016400711D33 /* Foundation.framework */,
+				EE403CC51823016400711D33 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE403CC71823016400711D33 /* HoledView */ = {
+			isa = PBXGroup;
+			children = (
+				EE403CD01823016400711D33 /* DVPAppDelegate.h */,
+				EE403CD11823016400711D33 /* DVPAppDelegate.m */,
+				EE403CD91823016400711D33 /* DVPViewController.h */,
+				EE403CDA1823016400711D33 /* DVPViewController.m */,
+				EE403CDC1823016400711D33 /* DVPViewController.xib */,
+				EE403CC81823016400711D33 /* Supporting Files */,
+			);
+			path = HoledView;
+			sourceTree = "<group>";
+		};
+		EE403CC81823016400711D33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE403CC91823016400711D33 /* HoledView-Info.plist */,
+				EE403CCA1823016400711D33 /* InfoPlist.strings */,
+				EE403CCD1823016400711D33 /* main.m */,
+				EE403CCF1823016400711D33 /* HoledView-Prefix.pch */,
+				EE403CD31823016400711D33 /* Default.png */,
+				EE403CD51823016400711D33 /* Default@2x.png */,
+				EE403CD71823016400711D33 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE403CBD1823016400711D33 /* HoledView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE403CE11823016400711D33 /* Build configuration list for PBXNativeTarget "HoledView" */;
+			buildPhases = (
+				EE403CBA1823016400711D33 /* Sources */,
+				EE403CBB1823016400711D33 /* Frameworks */,
+				EE403CBC1823016400711D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoledView;
+			productName = HoledView;
+			productReference = EE403CBE1823016400711D33 /* HoledView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE403CB61823016400711D33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DVP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = it.ignazioc;
+			};
+			buildConfigurationList = EE403CB91823016400711D33 /* Build configuration list for PBXProject "HoledView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE403CB51823016400711D33;
+			productRefGroup = EE403CBF1823016400711D33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE403CBD1823016400711D33 /* HoledView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE403CBC1823016400711D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE403CCC1823016400711D33 /* InfoPlist.strings in Resources */,
+				EE403CD41823016400711D33 /* Default.png in Resources */,
+				EE403CD61823016400711D33 /* Default@2x.png in Resources */,
+				EE403CD81823016400711D33 /* Default-568h@2x.png in Resources */,
+				EE403CDE1823016400711D33 /* DVPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE403CBA1823016400711D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE403CCE1823016400711D33 /* main.m in Sources */,
+				EE403CD21823016400711D33 /* DVPAppDelegate.m in Sources */,
+				EE403CDB1823016400711D33 /* DVPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE403CCA1823016400711D33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE403CCB1823016400711D33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE403CDC1823016400711D33 /* DVPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE403CDD1823016400711D33 /* en */,
+			);
+			name = DVPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE403CDF1823016400711D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE403CE01823016400711D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE403CE21823016400711D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoledView/HoledView-Prefix.pch";
+				INFOPLIST_FILE = "HoledView/HoledView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE403CE31823016400711D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoledView/HoledView-Prefix.pch";
+				INFOPLIST_FILE = "HoledView/HoledView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE403CB91823016400711D33 /* Build configuration list for PBXProject "HoledView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE403CDF1823016400711D33 /* Debug */,
+				EE403CE01823016400711D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE403CE11823016400711D33 /* Build configuration list for PBXNativeTarget "HoledView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE403CE21823016400711D33 /* Debug */,
+				EE403CE31823016400711D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE403CB61823016400711D33 /* Project object */;
+}
