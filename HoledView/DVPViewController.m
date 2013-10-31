@@ -7,6 +7,7 @@
 //
 
 #import "DVPViewController.h"
+#import "DVPHoledView.h"
 
 @interface DVPViewController ()
 
@@ -17,7 +18,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	DVPHoledView *holedView =[[DVPHoledView alloc] initWithFrame:self.view.bounds];
+    [holedView setFillColor:[UIColor blackColor]];
+    [holedView setAlpha:0.8];
+    
+    for (int i = 0; i < 5; i++ ) {
+        for (int j = 0; j < 10; j++ ) {
+            [holedView createHoleInRect:CGRectMake(i * 68, j * 64, 30, 30)];
+        }
+    }
+    
+    [self.view addSubview:holedView];
 }
 
 - (void)didReceiveMemoryWarning
