@@ -15,4 +15,5 @@
 
 
 - (void)createHoleInRect:(CGRect )rect;
+- (void)createEllipseInRect:(CGRect )rect;
 @end

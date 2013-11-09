@@ -11,7 +11,8 @@
 @interface DVPHoledView ()
 
 
-@property (nonatomic, strong) NSMutableArray *holes;
+@property (nonatomic, strong) NSMutableArray *rectHoles;
+@property (nonatomic, strong) NSMutableArray *ellipseHoles;
 
 @end
 
@@ -24,7 +25,8 @@
         
 		[self setBackgroundColor:[UIColor clearColor]];
         self.fillColor = [UIColor redColor];
-        self.holes = [NSMutableArray array];
+        self.rectHoles = [NSMutableArray array];
+        self.ellipseHoles = [NSMutableArray array];
         
     }
     return self;
@@ -32,7 +34,13 @@
 
 - (void)createHoleInRect:(CGRect )rect {
     NSValue *tmp = [NSValue valueWithCGRect:rect];
-    [self.holes addObject:tmp];
+    [self.rectHoles addObject:tmp];
+}
+
+
+- (void)createEllipseInRect:(CGRect )rect {
+    NSValue *tmp = [NSValue valueWithCGRect:rect];
+    [self.ellipseHoles addObject:tmp];
 }
 
 - (void)setBackgroundColor:(UIColor *)backgroundColor {
@@ -57,10 +65,17 @@
     
     CGContextSetBlendMode(ctx, kCGBlendModeDestinationOut);
     CGContextSetFillColorWithColor(ctx, [[UIColor blackColor] CGColor]);
-    [self.holes enumerateObjectsUsingBlock:^(NSValue *rect, NSUInteger idx, BOOL *stop){
+    [self.rectHoles enumerateObjectsUsingBlock:^(NSValue *rect, NSUInteger idx, BOOL *stop){
         CGRect spotRect = [rect CGRectValue];
         CGContextFillRect(ctx, spotRect);
     }];
+    
+    [self.ellipseHoles enumerateObjectsUsingBlock:^(NSValue *rect, NSUInteger idx, BOOL *stop){
+        CGRect spotRect = [rect CGRectValue];
+        CGContextFillEllipseInRect(ctx, spotRect);
+    }];
+    
+    
     
     CGContextRestoreGState(ctx);
 }
